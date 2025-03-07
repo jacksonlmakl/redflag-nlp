@@ -1,8 +1,0 @@
-pandas
-json5
-requests
-openai
-transformers
-dotenv
-flask
-rapidfuzz
