@@ -1,0 +1,108 @@
+{
+  "biases": [
+    {
+      "column_name": "confirmation_bias",
+      "description": "confirmation bias",
+      "weight": 9,
+      "long_description": "Confirmation bias is the tendency to search for, interpret, and remember information that confirms one's preexisting beliefs while ignoring or dismissing contradictory evidence."
+    },
+    {
+      "column_name": "optimism_bias",
+      "description": "optimism bias",
+      "weight": 5,
+      "long_description": "Optimism bias is the tendency to believe that oneself is less likely to experience negative outcomes and more likely to experience positive ones compared to others, often leading to underestimation of risks."
+    },
+    {
+      "column_name": "availability_bias",
+      "description": "availability bias",
+      "weight": 6,
+      "long_description": "Availability bias occurs when people judge the likelihood of an event based on how easily similar instances come to mind, leading to overestimation of recent, dramatic, or frequently reported occurrences."
+    },
+    {
+      "column_name": "anchoring_bias",
+      "description": "anchoring bias",
+      "weight": 6,
+      "long_description": "Anchoring bias is the tendency to rely too heavily on the first piece of information encountered (the 'anchor') when making decisions, even if it is irrelevant or misleading."
+    },
+    {
+      "column_name": "framing_bias",
+      "description": "framing bias",
+      "weight": 9,
+      "long_description": "Framing bias refers to how people's decisions are influenced by how information is presented. The same facts can lead to different conclusions depending on whether they are framed positively or negatively."
+    }
+  ],
+  "logic": [
+    {
+      "column_name": "affirming_the_consequent",
+      "description": "Affirms The Consequent",
+      "weight": 6,
+      "long_description": "Affirming the consequent is a logical fallacy where one assumes that because a specific outcome has occurred, a particular condition must have caused it. This is an invalid form of reasoning in conditional statements."
+    },
+    {
+      "column_name": "denying_the_antecedent",
+      "description": "Denies the antecedent",
+      "weight": 6,
+      "long_description": "Denying the antecedent is a logical fallacy where one incorrectly assumes that if a conditional statement's premise is false, then its conclusion must also be false. This does not logically follow."
+    },
+    {
+      "column_name": "appeals_to_emotion",
+      "description": "Appeals to the readers emotion",
+      "weight": 6,
+      "long_description": "An appeal to emotion is a logical fallacy in which arguments rely on emotional responses rather than valid reasoning or evidence to persuade an audience."
+    },
+    {
+      "column_name": "red_hering",
+      "description": "Exhibits a red herring",
+      "weight": 7,
+      "long_description": "A red herring is a logical fallacy in which an irrelevant topic is introduced into an argument to divert attention away from the original issue, misleading the audience."
+    },
+    {
+      "column_name": "straw_man",
+      "description": "Exhibits a straw man argument",
+      "weight": 9,
+      "long_description": "A straw man argument is a logical fallacy where someone misrepresents an opponent’s position in a way that makes it easier to attack, rather than addressing the original argument."
+    },
+    {
+      "column_name": "appealing_to_authority",
+      "description": "Appeals to authority",
+      "weight": 7,
+      "long_description": "Citing an authority figure (even unrelated) to justify an argument."
+    },
+    {
+      "column_name": "appealing_to_pity",
+      "description": "Appeals to pity",
+      "weight": 7,
+      "long_description": "Manipulating sympathy to support an argument."
+    },
+    {
+      "column_name": "virtue_signaling",
+      "description": "Virtue Signaling",
+      "weight": 8,
+      "long_description": "Manipulating sympathy to support an argument."
+    },
+    {
+      "column_name": "obfuscation",
+      "description": "Obfuscation",
+      "weight": 9,
+      "long_description": "Using vague, complex, or technical language to confuse rather than clarify."
+    },
+    {
+      "column_name": "dysphemism",
+      "description": "Dysphemism",
+      "weight": 9,
+      "long_description": "Using negative terms to create fear or disgust. (e.g., calling refugees an “invasion”)."
+    },
+    {
+      "column_name": "euphemism",
+      "description": "Euphemism",
+      "weight": 8,
+      "long_description": "Softening harsh realities to make them more acceptable. (e.g., “collateral damage” instead of “civilian deaths”)"
+    },
+    {
+      "column_name": "cherry_picking",
+      "description": "Cherry-Picking",
+      "weight": 10,
+      "long_description": "Selecting only favorable facts to support a narrative while ignoring contradicting evidence. (e.g., “Statistics show a drop in crime,” while ignoring other rising categories.)"
+    }
+  ]
+}
