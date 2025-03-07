@@ -18,8 +18,8 @@ RedFlag-NLP is an AI-powered natural language processing (NLP) agent designed to
 
 2. Create a virtual environment (optional but recommended):
    ```sh
-   python -m venv venv
-   source venv/bin/activate  # On Windows use: venv\Scripts\activate
+   python -m venv env
+   source env/bin/activate 
    ```
 
 3. Install the dependencies:
@@ -40,9 +40,9 @@ Before running the application, you need to add your OpenAI API key.
 
 ## Usage
 
-To run the NLP agent:
+To start the the Red Flag API endpoint:
 ```sh
-python main.py
+python endpoint.py
 ```
 
 By default, the agent uses the settings from `agent_config.json`. Modify this file to customize behavior.
